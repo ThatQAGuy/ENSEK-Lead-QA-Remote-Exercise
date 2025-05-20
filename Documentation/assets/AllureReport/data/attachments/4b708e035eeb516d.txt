@@ -1,0 +1,7 @@
+{
+  "energy_id": 2,
+  "fuel": "nuclear",
+  "id": "31fc32da-bccb-44ab-9352-4f43fc44ed4b",
+  "quantity": 1005,
+  "time": "2025-05-19T04:53:25Z"
+}

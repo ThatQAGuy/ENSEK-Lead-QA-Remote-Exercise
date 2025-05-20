@@ -1,0 +1,7 @@
+{
+  "energy_id": 0,
+  "fuel": "gas",
+  "id": "31fc32da-bccb-44ab-9352-4f43fc44ed4b",
+  "quantity": 5,
+  "time": "2022-03-10T09:01:24Z"
+}

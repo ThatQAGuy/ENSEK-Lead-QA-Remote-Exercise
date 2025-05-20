@@ -1,0 +1,172 @@
+{
+  "Request": {
+    "AlwaysMultipartFormData": false,
+    "AlwaysSingleFileAsContent": false,
+    "MultipartFormQuoteParameters": false,
+    "MultipartFormQuoteBoundary": true,
+    "Parameters": [
+      {
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Name": "orderId",
+        "Value": "31fc32da-bccb-44ab-9352-4f43fc44ed4b",
+        "Type": 1,
+        "Encode": true
+      },
+      {
+        "DataFormat": 3,
+        "ContentType": {
+          "Value": "application/json",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "application/json"
+          }
+        },
+        "Name": "",
+        "Value": "{\r\n  \"energy_id\": 2,\r\n  \"id\": \"31fc32da-bccb-44ab-9352-4f43fc44ed4b\",\r\n  \"quantity\": 1005,\r\n  \"time\": \"0001-01-01T00:00:00\"\r\n}",
+        "Type": 3,
+        "Encode": false
+      }
+    ],
+    "CookieContainer": {
+      "Capacity": 300,
+      "Count": 0,
+      "MaxCookieSize": 4096,
+      "PerDomainCapacity": 20
+    },
+    "Files": [],
+    "Method": 2,
+    "Resource": "orders/{orderId}",
+    "RequestFormat": 0,
+    "Version": "1.1",
+    "Attempts": 1,
+    "CompletionOption": 0
+  },
+  "ContentType": "application/json",
+  "ContentLength": 132,
+  "ContentEncoding": [],
+  "Content": "{\"energy_id\":2,\"fuel\":\"nuclear\",\"id\":\"31fc32da-bccb-44ab-9352-4f43fc44ed4b\",\"quantity\":1005,\"time\":\"Mon, 19 May 2025 04:53:25 GMT\"}\n",
+  "StatusCode": 200,
+  "IsSuccessStatusCode": true,
+  "IsSuccessful": true,
+  "StatusDescription": "OK",
+  "RawBytes": "eyJlbmVyZ3lfaWQiOjIsImZ1ZWwiOiJudWNsZWFyIiwiaWQiOiIzMWZjMzJkYS1iY2NiLTQ0YWItOTM1Mi00ZjQzZmM0NGVkNGIiLCJxdWFudGl0eSI6MTAwNSwidGltZSI6Ik1vbiwgMTkgTWF5IDIwMjUgMDQ6NTM6MjUgR01UIn0K",
+  "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/orders/31fc32da-bccb-44ab-9352-4f43fc44ed4b",
+  "Server": "nginx/1.18.0 (Ubuntu)",
+  "Cookies": [],
+  "Headers": [
+    {
+      "Name": "Date",
+      "Value": "Mon, 19 May 2025 04:53:25 GMT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Connection",
+      "Value": "keep-alive",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "nginx/1.18.0",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "(Ubuntu)",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Methods",
+      "Value": "OPTIONS, GET",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Origin",
+      "Value": "*",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ContentHeaders": [
+    {
+      "Name": "Content-Type",
+      "Value": "application/json",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Content-Length",
+      "Value": "132",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ResponseStatus": 1,
+  "Version": "1.1"
+}

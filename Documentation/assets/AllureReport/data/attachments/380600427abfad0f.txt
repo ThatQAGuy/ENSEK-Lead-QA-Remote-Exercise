@@ -1,0 +1,177 @@
+{
+  "StatusCode": 200,
+  "Content": {
+    "Message": "You have purchased 10 Litres at a cost of 6.0 there are 10 units remaining. Your orderid is 20091d47-a7ea-46b7-bd65-d13ae968dbfa."
+  },
+  "RawResponse": {
+    "Request": {
+      "AlwaysMultipartFormData": false,
+      "AlwaysSingleFileAsContent": false,
+      "MultipartFormQuoteParameters": false,
+      "MultipartFormQuoteBoundary": true,
+      "Parameters": [
+        {
+          "ContentType": {
+            "Value": "text/plain",
+            "AsMediaTypeHeaderValue": {
+              "Parameters": [],
+              "MediaType": "text/plain"
+            }
+          },
+          "Name": "id",
+          "Value": "4",
+          "Type": 1,
+          "Encode": true
+        },
+        {
+          "ContentType": {
+            "Value": "text/plain",
+            "AsMediaTypeHeaderValue": {
+              "Parameters": [],
+              "MediaType": "text/plain"
+            }
+          },
+          "Name": "qty",
+          "Value": "10",
+          "Type": 1,
+          "Encode": true
+        }
+      ],
+      "CookieContainer": {
+        "Capacity": 300,
+        "Count": 0,
+        "MaxCookieSize": 4096,
+        "PerDomainCapacity": 20
+      },
+      "Files": [],
+      "Method": 2,
+      "Resource": "buy/{id}/{qty}",
+      "RequestFormat": 0,
+      "Version": "1.1",
+      "Attempts": 1,
+      "CompletionOption": 0
+    },
+    "ContentType": "application/json",
+    "ContentLength": 144,
+    "ContentEncoding": [],
+    "Content": "{\"message\":\"You have purchased 10 Litres at a cost of 6.0 there are 10 units remaining. Your orderid is 20091d47-a7ea-46b7-bd65-d13ae968dbfa.\"}\n",
+    "StatusCode": 200,
+    "IsSuccessStatusCode": true,
+    "IsSuccessful": true,
+    "StatusDescription": "OK",
+    "RawBytes": "eyJtZXNzYWdlIjoiWW91IGhhdmUgcHVyY2hhc2VkIDEwIExpdHJlcyBhdCBhIGNvc3Qgb2YgNi4wIHRoZXJlIGFyZSAxMCB1bml0cyByZW1haW5pbmcuIFlvdXIgb3JkZXJpZCBpcyAyMDA5MWQ0Ny1hN2VhLTQ2YjctYmQ2NS1kMTNhZTk2OGRiZmEuIn0K",
+    "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/buy/4/10",
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Cookies": [],
+    "Headers": [
+      {
+        "Name": "Date",
+        "Value": "Mon, 19 May 2025 04:53:25 GMT",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      },
+      {
+        "Name": "Connection",
+        "Value": "keep-alive",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      },
+      {
+        "Name": "Server",
+        "Value": "nginx/1.18.0",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      },
+      {
+        "Name": "Server",
+        "Value": "(Ubuntu)",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      },
+      {
+        "Name": "Access-Control-Allow-Methods",
+        "Value": "OPTIONS, PUT",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      },
+      {
+        "Name": "Access-Control-Allow-Origin",
+        "Value": "*",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      }
+    ],
+    "ContentHeaders": [
+      {
+        "Name": "Content-Type",
+        "Value": "application/json",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      },
+      {
+        "Name": "Content-Length",
+        "Value": "144",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      }
+    ],
+    "ResponseStatus": 1,
+    "Version": "1.1"
+  }
+}

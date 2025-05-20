@@ -1,0 +1,209 @@
+{
+  "Request": {
+    "AlwaysMultipartFormData": false,
+    "AlwaysSingleFileAsContent": false,
+    "MultipartFormQuoteParameters": false,
+    "MultipartFormQuoteBoundary": true,
+    "FormBoundary": null,
+    "Parameters": [
+      {
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "CharSet": null,
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Name": "id",
+        "Value": "3",
+        "Type": 1,
+        "Encode": true
+      },
+      {
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "CharSet": null,
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Name": "quantity",
+        "Value": "10000",
+        "Type": 1,
+        "Encode": true
+      },
+      {
+        "Name": "Authorization",
+        "Value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0Nzc2NzY5MSwianRpIjoiZTA2ZDAxYjYtMTI0ZC00YjQ0LWJmNzAtMzJkNjcwYmNjMDA1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InRlc3QiLCJuYmYiOjE3NDc3Njc2OTEsImV4cCI6MTc0Nzc2ODU5MSwicGFzc3dvcmQiOiJ0ZXN0aW5nIn0.cwcNPIilHtcG2VUkwbL-ZgMp4mdTMyhtdl5NHUftvH0",
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "CharSet": null,
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Type": 2,
+        "Encode": false
+      }
+    ],
+    "CookieContainer": {
+      "Capacity": 300,
+      "Count": 0,
+      "MaxCookieSize": 4096,
+      "PerDomainCapacity": 20
+    },
+    "Authenticator": null,
+    "Files": [],
+    "Method": 2,
+    "Timeout": null,
+    "Resource": "buy/{id}/{quantity}",
+    "RequestFormat": 0,
+    "RootElement": null,
+    "Version": "1.1",
+    "OnBeforeDeserialization": null,
+    "OnBeforeRequest": null,
+    "OnAfterRequest": null,
+    "Attempts": 1,
+    "CompletionOption": 0,
+    "CachePolicy": null,
+    "ResponseWriter": null,
+    "AdvancedResponseWriter": null,
+    "Interceptors": null
+  },
+  "ContentType": "application/json",
+  "ContentLength": 156,
+  "ContentEncoding": [],
+  "Content": "{\"message\":\"You have purchased 10000 kWh at a cost of 4700.0 there are -7279 units remaining. Your order\\u00a0id is 5b54c0f4-427f-4e74-9da8-2b289b0bc294.\"}\n",
+  "StatusCode": 200,
+  "IsSuccessStatusCode": true,
+  "IsSuccessful": true,
+  "StatusDescription": "OK",
+  "RawBytes": "eyJtZXNzYWdlIjoiWW91IGhhdmUgcHVyY2hhc2VkIDEwMDAwIGtXaCBhdCBhIGNvc3Qgb2YgNDcwMC4wIHRoZXJlIGFyZSAtNzI3OSB1bml0cyByZW1haW5pbmcuIFlvdXIgb3JkZXJcdTAwYTBpZCBpcyA1YjU0YzBmNC00MjdmLTRlNzQtOWRhOC0yYjI4OWIwYmMyOTQuIn0K",
+  "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/buy/3/10000",
+  "Server": "nginx/1.18.0 (Ubuntu)",
+  "Cookies": [],
+  "Headers": [
+    {
+      "Name": "Date",
+      "Value": "Tue, 20 May 2025 19:01:31 GMT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Connection",
+      "Value": "keep-alive",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "nginx/1.18.0",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "(Ubuntu)",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Methods",
+      "Value": "OPTIONS, PUT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Origin",
+      "Value": "*",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ContentHeaders": [
+    {
+      "Name": "Content-Type",
+      "Value": "application/json",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Content-Length",
+      "Value": "156",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ResponseStatus": 1,
+  "ErrorMessage": null,
+  "ErrorException": null,
+  "Version": "1.1",
+  "RootElement": null
+}

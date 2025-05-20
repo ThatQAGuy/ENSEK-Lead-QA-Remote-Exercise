@@ -1,0 +1,171 @@
+{
+  "Request": {
+    "AlwaysMultipartFormData": false,
+    "AlwaysSingleFileAsContent": false,
+    "MultipartFormQuoteParameters": false,
+    "MultipartFormQuoteBoundary": true,
+    "Parameters": [
+      {
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Name": "id",
+        "Value": "2",
+        "Type": 1,
+        "Encode": true
+      },
+      {
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Name": "qty",
+        "Value": "1",
+        "Type": 1,
+        "Encode": true
+      }
+    ],
+    "CookieContainer": {
+      "Capacity": 300,
+      "Count": 0,
+      "MaxCookieSize": 4096,
+      "PerDomainCapacity": 20
+    },
+    "Files": [],
+    "Method": 2,
+    "Resource": "buy/{id}/{qty}",
+    "RequestFormat": 0,
+    "Version": "1.1",
+    "Attempts": 1,
+    "CompletionOption": 0
+  },
+  "ContentType": "application/json",
+  "ContentLength": 52,
+  "ContentEncoding": [],
+  "Content": "{\"message\":\"There is no nuclear fuel to purchase!\"}\n",
+  "StatusCode": 200,
+  "IsSuccessStatusCode": true,
+  "IsSuccessful": true,
+  "StatusDescription": "OK",
+  "RawBytes": "eyJtZXNzYWdlIjoiVGhlcmUgaXMgbm8gbnVjbGVhciBmdWVsIHRvIHB1cmNoYXNlISJ9Cg==",
+  "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/buy/2/1",
+  "Server": "nginx/1.18.0 (Ubuntu)",
+  "Cookies": [],
+  "Headers": [
+    {
+      "Name": "Date",
+      "Value": "Mon, 19 May 2025 04:53:25 GMT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Connection",
+      "Value": "keep-alive",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "nginx/1.18.0",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "(Ubuntu)",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Methods",
+      "Value": "OPTIONS, PUT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Origin",
+      "Value": "*",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ContentHeaders": [
+    {
+      "Name": "Content-Type",
+      "Value": "application/json",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Content-Length",
+      "Value": "52",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ResponseStatus": 1,
+  "Version": "1.1"
+}

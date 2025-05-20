@@ -1,0 +1,6 @@
+{
+  "energy_id": 4,
+  "price_per_unit": 0.5,
+  "quantity_of_units": 20,
+  "unit_type": "Litres"
+}

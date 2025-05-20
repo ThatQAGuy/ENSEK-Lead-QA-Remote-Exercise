@@ -1,0 +1,6 @@
+{
+  "energy_id": 3,
+  "price_per_unit": 0.47,
+  "quantity_of_units": 3322,
+  "unit_type": "kWh"
+}

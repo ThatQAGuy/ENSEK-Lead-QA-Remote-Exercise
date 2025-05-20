@@ -1,0 +1,7 @@
+{
+  "energy_id": 0,
+  "fuel": "nuclear",
+  "id": "2cdd6f69-95df-437e-b4d3-e772472db8de",
+  "quantity": 15,
+  "time": "2022-02-08T01:01:24Z"
+}

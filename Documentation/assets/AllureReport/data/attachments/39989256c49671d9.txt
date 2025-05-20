@@ -1,0 +1,177 @@
+{
+  "Request": {
+    "AlwaysMultipartFormData": false,
+    "AlwaysSingleFileAsContent": false,
+    "MultipartFormQuoteParameters": false,
+    "MultipartFormQuoteBoundary": true,
+    "FormBoundary": null,
+    "Parameters": [
+      {
+        "ContentType": {
+          "Value": "text/plain",
+          "AsMediaTypeHeaderValue": {
+            "CharSet": null,
+            "Parameters": [],
+            "MediaType": "text/plain"
+          }
+        },
+        "Name": "id",
+        "Value": "2cdd6f69-95df-437e-b4d3-e772472db8de",
+        "Type": 1,
+        "Encode": true
+      }
+    ],
+    "CookieContainer": {
+      "Capacity": 300,
+      "Count": 0,
+      "MaxCookieSize": 4096,
+      "PerDomainCapacity": 20
+    },
+    "Authenticator": null,
+    "Files": [],
+    "Method": 3,
+    "Timeout": null,
+    "Resource": "orders/{id}",
+    "RequestFormat": 0,
+    "RootElement": null,
+    "Version": "1.1",
+    "OnBeforeDeserialization": null,
+    "OnBeforeRequest": null,
+    "OnAfterRequest": null,
+    "Attempts": 1,
+    "CompletionOption": 0,
+    "CachePolicy": null,
+    "ResponseWriter": null,
+    "AdvancedResponseWriter": null,
+    "Interceptors": null
+  },
+  "ContentType": "application/json",
+  "ContentLength": 37,
+  "ContentEncoding": [],
+  "Content": "{\"message\": \"Internal Server Error\"}\n",
+  "StatusCode": 500,
+  "IsSuccessStatusCode": false,
+  "IsSuccessful": false,
+  "StatusDescription": "INTERNAL SERVER ERROR",
+  "RawBytes": "eyJtZXNzYWdlIjogIkludGVybmFsIFNlcnZlciBFcnJvciJ9Cg==",
+  "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/orders/2cdd6f69-95df-437e-b4d3-e772472db8de",
+  "Server": "nginx/1.18.0 (Ubuntu)",
+  "Cookies": [],
+  "Headers": [
+    {
+      "Name": "Date",
+      "Value": "Tue, 20 May 2025 19:01:34 GMT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Connection",
+      "Value": "keep-alive",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "nginx/1.18.0",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "(Ubuntu)",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Origin",
+      "Value": "*",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ContentHeaders": [
+    {
+      "Name": "Content-Type",
+      "Value": "application/json",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Content-Length",
+      "Value": "37",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ResponseStatus": 2,
+  "ErrorMessage": null,
+  "ErrorException": {
+    "HttpRequestError": 0,
+    "StatusCode": 500,
+    "Message": "Request failed with status code InternalServerError",
+    "Data": {},
+    "InnerException": null,
+    "HelpLink": null,
+    "Source": null,
+    "HResult": -2146233088,
+    "StackTrace": null
+  },
+  "Version": "1.1",
+  "RootElement": null
+}

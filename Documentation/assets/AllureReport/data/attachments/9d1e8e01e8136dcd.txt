@@ -1,0 +1,6 @@
+{
+  "energy_id": 2,
+  "price_per_unit": 0.56,
+  "quantity_of_units": 0,
+  "unit_type": "MW"
+}

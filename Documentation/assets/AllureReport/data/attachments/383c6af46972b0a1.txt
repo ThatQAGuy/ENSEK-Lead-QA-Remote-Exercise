@@ -1,0 +1,6 @@
+{
+  "energy_id": 1,
+  "price_per_unit": 0.34,
+  "quantity_of_units": 3000,
+  "unit_type": "m³"
+}

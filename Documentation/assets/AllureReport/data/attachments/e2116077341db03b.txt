@@ -1,0 +1,166 @@
+{
+  "Request": {
+    "AlwaysMultipartFormData": false,
+    "AlwaysSingleFileAsContent": false,
+    "MultipartFormQuoteParameters": false,
+    "MultipartFormQuoteBoundary": true,
+    "Parameters": [
+      {
+        "DataFormat": 3,
+        "ContentType": {
+          "Value": "application/json",
+          "AsMediaTypeHeaderValue": {
+            "Parameters": [],
+            "MediaType": "application/json"
+          }
+        },
+        "Name": "",
+        "Value": "{\r\n  \"username\": \"test\",\r\n  \"password\": \"nottherealpassword\"\r\n}",
+        "Type": 3,
+        "Encode": false
+      }
+    ],
+    "CookieContainer": {
+      "Capacity": 300,
+      "Count": 0,
+      "MaxCookieSize": 4096,
+      "PerDomainCapacity": 20
+    },
+    "Files": [],
+    "Method": 1,
+    "Resource": "login",
+    "RequestFormat": 0,
+    "Version": "1.1",
+    "Attempts": 1,
+    "CompletionOption": 0
+  },
+  "ContentType": "application/json",
+  "ContentLength": 27,
+  "ContentEncoding": [],
+  "Content": "{\"message\":\"Unauthorized\"}\n",
+  "StatusCode": 401,
+  "IsSuccessStatusCode": false,
+  "IsSuccessful": false,
+  "StatusDescription": "UNAUTHORIZED",
+  "RawBytes": "eyJtZXNzYWdlIjoiVW5hdXRob3JpemVkIn0K",
+  "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/login",
+  "Server": "nginx/1.18.0 (Ubuntu)",
+  "Cookies": [],
+  "Headers": [
+    {
+      "Name": "Date",
+      "Value": "Mon, 19 May 2025 04:52:01 GMT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Connection",
+      "Value": "keep-alive",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "nginx/1.18.0",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "(Ubuntu)",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Methods",
+      "Value": "OPTIONS, POST",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Origin",
+      "Value": "*",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ContentHeaders": [
+    {
+      "Name": "Content-Type",
+      "Value": "application/json",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Content-Length",
+      "Value": "27",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ResponseStatus": 2,
+  "ErrorException": {
+    "HttpRequestError": 0,
+    "StatusCode": 401,
+    "Message": "Request failed with status code Unauthorized",
+    "Data": {},
+    "HResult": -2146233088
+  },
+  "Version": "1.1"
+}

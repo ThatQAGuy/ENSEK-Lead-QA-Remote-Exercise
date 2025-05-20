@@ -1,0 +1,7 @@
+{
+  "energy_id": 0,
+  "fuel": "Elec",
+  "id": "7970cf79-bc6c-42aa-8234-fa2a37ea0884",
+  "quantity": 2161,
+  "time": "2025-05-19T04:53:25Z"
+}

@@ -1,0 +1,144 @@
+{
+  "Request": {
+    "AlwaysMultipartFormData": false,
+    "AlwaysSingleFileAsContent": false,
+    "MultipartFormQuoteParameters": false,
+    "MultipartFormQuoteBoundary": true,
+    "Parameters": [],
+    "CookieContainer": {
+      "Capacity": 300,
+      "Count": 0,
+      "MaxCookieSize": 4096,
+      "PerDomainCapacity": 20
+    },
+    "Files": [],
+    "Method": 0,
+    "Resource": "energy",
+    "RequestFormat": 0,
+    "Version": "1.1",
+    "Attempts": 1,
+    "CompletionOption": 0
+  },
+  "ContentType": "application/json",
+  "ContentLength": 359,
+  "ContentEncoding": [],
+  "Content": "{\"electric\":{\"energy_id\":3,\"price_per_unit\":0.47,\"quantity_of_units\":3322,\"unit_type\":\"kWh\"},\"gas\":{\"energy_id\":1,\"price_per_unit\":0.34,\"quantity_of_units\":3000,\"unit_type\":\"m\\u00b3\"},\"nuclear\":{\"energy_id\":2,\"price_per_unit\":0.56,\"quantity_of_units\":0,\"unit_type\":\"MW\"},\"oil\":{\"energy_id\":4,\"price_per_unit\":0.5,\"quantity_of_units\":20,\"unit_type\":\"Litres\"}}\n",
+  "StatusCode": 200,
+  "IsSuccessStatusCode": true,
+  "IsSuccessful": true,
+  "StatusDescription": "OK",
+  "RawBytes": "eyJlbGVjdHJpYyI6eyJlbmVyZ3lfaWQiOjMsInByaWNlX3Blcl91bml0IjowLjQ3LCJxdWFudGl0eV9vZl91bml0cyI6MzMyMiwidW5pdF90eXBlIjoia1doIn0sImdhcyI6eyJlbmVyZ3lfaWQiOjEsInByaWNlX3Blcl91bml0IjowLjM0LCJxdWFudGl0eV9vZl91bml0cyI6MzAwMCwidW5pdF90eXBlIjoibVx1MDBiMyJ9LCJudWNsZWFyIjp7ImVuZXJneV9pZCI6MiwicHJpY2VfcGVyX3VuaXQiOjAuNTYsInF1YW50aXR5X29mX3VuaXRzIjowLCJ1bml0X3R5cGUiOiJNVyJ9LCJvaWwiOnsiZW5lcmd5X2lkIjo0LCJwcmljZV9wZXJfdW5pdCI6MC41LCJxdWFudGl0eV9vZl91bml0cyI6MjAsInVuaXRfdHlwZSI6IkxpdHJlcyJ9fQo=",
+  "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/energy",
+  "Server": "nginx/1.18.0 (Ubuntu)",
+  "Cookies": [],
+  "Headers": [
+    {
+      "Name": "Date",
+      "Value": "Mon, 19 May 2025 04:52:02 GMT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Connection",
+      "Value": "keep-alive",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "nginx/1.18.0",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "(Ubuntu)",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Methods",
+      "Value": "OPTIONS, GET",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Origin",
+      "Value": "*",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ContentHeaders": [
+    {
+      "Name": "Content-Type",
+      "Value": "application/json",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Content-Length",
+      "Value": "359",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ResponseStatus": 1,
+  "Version": "1.1"
+}

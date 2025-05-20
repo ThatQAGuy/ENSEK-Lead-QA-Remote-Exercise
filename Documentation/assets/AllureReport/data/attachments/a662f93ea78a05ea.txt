@@ -1,0 +1,37 @@
+[
+  {
+    "energy_id": 0,
+    "fuel": "gas",
+    "id": "31fc32da-bccb-44ab-9352-4f43fc44ed4b",
+    "quantity": 5,
+    "time": "2022-03-10T09:01:24Z"
+  },
+  {
+    "energy_id": 0,
+    "fuel": "nuclear",
+    "id": "2cdd6f69-95df-437e-b4d3-e772472db8de",
+    "quantity": 15,
+    "time": "2022-02-08T01:01:24Z"
+  },
+  {
+    "energy_id": 0,
+    "fuel": "oil",
+    "id": "080d9823-e874-4b5b-99ff-2021f2a59b24",
+    "quantity": 25,
+    "time": "2022-03-10T00:01:24Z"
+  },
+  {
+    "energy_id": 0,
+    "fuel": "electric",
+    "id": "080d9823-e874-4b5b-99ff-2021f2a59b25",
+    "quantity": 23,
+    "time": "2022-02-07T00:01:24Z"
+  },
+  {
+    "energy_id": 0,
+    "fuel": "gas",
+    "id": "31fc32da-bccb-44ab-9352-4f43fc44ed4b",
+    "quantity": 5,
+    "time": "2022-03-10T09:23:24Z"
+  }
+]

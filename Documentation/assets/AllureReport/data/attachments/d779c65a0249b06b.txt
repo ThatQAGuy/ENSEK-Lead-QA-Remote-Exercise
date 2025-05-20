@@ -1,0 +1,166 @@
+{
+  "Request": {
+    "AlwaysMultipartFormData": false,
+    "AlwaysSingleFileAsContent": false,
+    "MultipartFormQuoteParameters": false,
+    "MultipartFormQuoteBoundary": true,
+    "FormBoundary": null,
+    "Parameters": [],
+    "CookieContainer": {
+      "Capacity": 300,
+      "Count": 0,
+      "MaxCookieSize": 4096,
+      "PerDomainCapacity": 20
+    },
+    "Authenticator": null,
+    "Files": [],
+    "Method": 0,
+    "Timeout": null,
+    "Resource": "orders",
+    "RequestFormat": 0,
+    "RootElement": null,
+    "Version": "1.1",
+    "OnBeforeDeserialization": null,
+    "OnBeforeRequest": null,
+    "OnAfterRequest": null,
+    "Attempts": 1,
+    "CompletionOption": 0,
+    "CachePolicy": null,
+    "ResponseWriter": null,
+    "AdvancedResponseWriter": null,
+    "Interceptors": null
+  },
+  "ContentType": "application/json",
+  "ContentLength": 568,
+  "ContentEncoding": [],
+  "Content": "[{\"fuel\":\"nuclear\",\"id\":\"2cdd6f69-95df-437e-b4d3-e772472db8de\",\"quantity\":15,\"time\":\"Tue, 08 Feb 2022 01:01:24 GMT\"},{\"fuel\":\"oil\",\"id\":\"080d9823-e874-4b5b-99ff-2021f2a59b24\",\"quantity\":25,\"time\":\"Thu, 10 Mar 2022 00:01:24 GMT\"},{\"fuel\":\"gas\",\"id\":\"31fc32da-bccb-44ab-9352-4f43fc44ed4b\",\"quantity\":5,\"time\":\"Thu, 10 Mar 2022 09:23:24 GMT\"},{\"fuel\":\"gas\",\"id\":\"31fc32da-bccb-44ab-9352-4f43fc44ed4b\",\"quantity\":5,\"time\":\"Thu, 10 Mar 2022 09:01:24 GMT\"},{\"fuel\":\"electric\",\"id\":\"080d9823-e874-4b5b-99ff-2021f2a59b25\",\"quantity\":23,\"time\":\"Mon, 7 Feb 2022 00:01:24 GMT\"}]\n",
+  "StatusCode": 200,
+  "IsSuccessStatusCode": true,
+  "IsSuccessful": true,
+  "StatusDescription": "OK",
+  "RawBytes": "W3siZnVlbCI6Im51Y2xlYXIiLCJpZCI6IjJjZGQ2ZjY5LTk1ZGYtNDM3ZS1iNGQzLWU3NzI0NzJkYjhkZSIsInF1YW50aXR5IjoxNSwidGltZSI6IlR1ZSwgMDggRmViIDIwMjIgMDE6MDE6MjQgR01UIn0seyJmdWVsIjoib2lsIiwiaWQiOiIwODBkOTgyMy1lODc0LTRiNWItOTlmZi0yMDIxZjJhNTliMjQiLCJxdWFudGl0eSI6MjUsInRpbWUiOiJUaHUsIDEwIE1hciAyMDIyIDAwOjAxOjI0IEdNVCJ9LHsiZnVlbCI6ImdhcyIsImlkIjoiMzFmYzMyZGEtYmNjYi00NGFiLTkzNTItNGY0M2ZjNDRlZDRiIiwicXVhbnRpdHkiOjUsInRpbWUiOiJUaHUsIDEwIE1hciAyMDIyIDA5OjIzOjI0IEdNVCJ9LHsiZnVlbCI6ImdhcyIsImlkIjoiMzFmYzMyZGEtYmNjYi00NGFiLTkzNTItNGY0M2ZjNDRlZDRiIiwicXVhbnRpdHkiOjUsInRpbWUiOiJUaHUsIDEwIE1hciAyMDIyIDA5OjAxOjI0IEdNVCJ9LHsiZnVlbCI6ImVsZWN0cmljIiwiaWQiOiIwODBkOTgyMy1lODc0LTRiNWItOTlmZi0yMDIxZjJhNTliMjUiLCJxdWFudGl0eSI6MjMsInRpbWUiOiJNb24sIDcgRmViIDIwMjIgMDA6MDE6MjQgR01UIn1dCg==",
+  "ResponseUri": "https://qacandidatetest.ensek.io/ENSEK/orders",
+  "Server": "nginx/1.18.0 (Ubuntu)",
+  "Cookies": [],
+  "Headers": [
+    {
+      "Name": "Date",
+      "Value": "Tue, 20 May 2025 19:01:33 GMT",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Connection",
+      "Value": "keep-alive",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "nginx/1.18.0",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Server",
+      "Value": "(Ubuntu)",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Methods",
+      "Value": "OPTIONS, GET",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Access-Control-Allow-Origin",
+      "Value": "*",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ContentHeaders": [
+    {
+      "Name": "Content-Type",
+      "Value": "application/json",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    },
+    {
+      "Name": "Content-Length",
+      "Value": "568",
+      "ContentType": {
+        "Value": "text/plain",
+        "AsMediaTypeHeaderValue": {
+          "CharSet": null,
+          "Parameters": [],
+          "MediaType": "text/plain"
+        }
+      },
+      "Type": 2,
+      "Encode": false
+    }
+  ],
+  "ResponseStatus": 1,
+  "ErrorMessage": null,
+  "ErrorException": null,
+  "Version": "1.1",
+  "RootElement": null
+}
